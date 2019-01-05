@@ -59,8 +59,8 @@
 
 .toolbar-text-left {
     text-align: center;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     border: none;
     background-color: white;
 }
@@ -78,4 +78,43 @@
     color: #eeeeee;
     position: relative;
     top: 130px;
+}
+
+.content {
+    width: 600px;
+    position: relative;
+    left: 80px;
+}
+
+.speed-text {
+    position: relative;
+    top: 130px;
+    font-size: 14px;
+    color: #999999;
+    left: 90px;
+    margin: 0;
+    padding: 0;
+}
+
+.results-text, .descript-text, .url-text {
+    position: relative;
+    top: 150px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.results-text {
+    color: blue;
+    font-size: 18px;
+}
+
+.descript-text {
+    color: #999999;
+    font-size: 14px;
+    margin-bottom: 18px;
+}
+
+.url-text {
+    color: #19db23;
+    font-size: 14px;
 }
